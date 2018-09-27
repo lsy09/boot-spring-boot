@@ -6,7 +6,7 @@ import org.springframework.context.ApplicationListener;
 
 /**
  * Application 이 구동되는 순간 발생하는 리스너
-  */
+ */
 
 @Slf4j
 public class ApplicationStartingEventListener implements ApplicationListener<ApplicationStartedEvent> {

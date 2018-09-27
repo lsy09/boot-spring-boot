@@ -9,6 +9,6 @@ import org.springframework.stereotype.Component;
 public class CmdRunner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
-        log.debug("Run CodRunner.");
+        log.debug("Run CmdRunner.");
     }
 }
