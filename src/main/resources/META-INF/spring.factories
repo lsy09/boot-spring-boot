@@ -1,0 +1,4 @@
+#Listener
+org.springframework.context.ApplicationListener=\
+io.sulee.boot.springboot.listener.ApplicationStartingEventListener,\
+io.sulee.boot.springboot.listener.ApplicationReadyEventListener
