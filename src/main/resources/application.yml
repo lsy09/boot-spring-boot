@@ -1,9 +1,9 @@
 ## default
-#info:
-#  app:
-#    encoding: \${file.encoding}
-#    java.source: \${java.version}
-#    java.target: \${java.version}
+info:
+  app:
+    encoding: \${file.encoding}
+    java.source: \${java.version}
+    java.target: \${java.version}
 logging:
   level:
     io.sulee.boot.springboot: DEBUG
